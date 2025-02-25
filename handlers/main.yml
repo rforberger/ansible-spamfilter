@@ -1,0 +1,8 @@
+---
+
+- name: amavis
+  ansible.builtin.service:
+    name: amavis
+    state: restarted
+
+
